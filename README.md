@@ -15,3 +15,9 @@ The following datasets are used in this project:
 1. **Identify High-Risk Areas**: Find community areas with the highest crime rates.
 2. **Analyze Socio-Economic Factors**: Examine the relationship between poverty levels, hardship index, and crime.
 3. **School Safety Analysis**: Assess safety scores across different types of schools in Chicago.
+
+## Key Features
+- SQL queries to explore and manipulate data in SQLite.
+- Python scripts to automate data loading, querying, and reporting.
+- Subqueries and complex SQL joins to extract meaningful insights.
+- Summary statistics and visualizations to present findings.
