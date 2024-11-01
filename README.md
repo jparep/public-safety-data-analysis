@@ -42,6 +42,6 @@ python scripts/load_data.py
 
 ## Usage
 
-- **Data Loading**: ```scripts/load_data.py``` – Imports datasets into SQLite.
+- **Data Loading**: *scripts/load_data.py*` – Imports datasets into SQLite.
 - **Data Analysis**: Use notebooks in the notebooks/ directory for various analyses, including crime trends, socio-economic impacts, and school safety.
 - **Reporting**: Run `scripts/analysis_report.py` to generate summary reports for key insights.
