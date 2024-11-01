@@ -50,3 +50,8 @@ python scripts/load_data.py
 ## Contributing
 
 Contributions are welcome! If you'd like to make improvements, please fork the repository and submit a pull request. Make sure to follow best practices and include detailed documentation for any changes.
+
+
+## License
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
