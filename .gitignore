@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+FinalDB.db
+
+# Environment files
+.env
+*.env
+
+# Jupyter Notebook metadata
+*.ipynb_checkpoints
+.notebook/
+
+# macOS files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Log files
+*.log
+
+# Local configuration files
+config.ini
+*.yaml
+
+# Reports and analytics
+*.csv
+*.xlsx
+*.xls
+
+# Ignore data files (except those in the data folder)
+!data/*.csv
+
+# Ignore compiled HTML files
+*.html
+
+# Ignore files created by editors
+*.sublime-workspace
+*.sublime-project
+.idea/
+*.iml
+
+# Tailwind and node_modules (if using Tailwind CSS or other Node packages)
+node_modules/
+tailwind.config.js
+package-lock.json
+yarn.lock
