@@ -21,3 +21,27 @@ The following datasets are used in this project:
 - Python scripts to automate data loading, querying, and reporting.
 - Subqueries and complex SQL joins to extract meaningful insights.
 - Summary statistics and visualizations to present findings.
+
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jparep/public-safety-data-analysis.git
+   cd chicago-data-analysis
+   ```
+
+2. Install required dependencies:
+```bash
+    pip install -r requirements.txt
+```
+
+3. Load data into SQLite: Run the load_data.py script to import CSV data into the FinalDB.db SQLite database.
+```bash
+    python scripts/load_data.py
+```
+
+
+## Usage
+
+- **Data Loading**: scripts/load_data.py – Imports datasets into SQLite.
+- **Data Analysis**: Use notebooks in the notebooks/ directory for various analyses, including crime trends, socio-economic impacts, and school safety.
+- **Reporting**: Run `scripts/analysis_report.py` to generate summary reports for key insights.
