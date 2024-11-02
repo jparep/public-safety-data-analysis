@@ -10,3 +10,7 @@ schools_csv_url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.
 # Connect to SQLite Database
 conn = sqlite3.connect('FinalDB.db')
 cur = conn.cursor()
+
+# Load Chicago Crime csv file into DataFrame and save as SQLite Database
+crime_df = pd.read_csv(crime_csv_url)
+crime_df.to_sql('CRIME', conn, if_exists="replace", index=False)
