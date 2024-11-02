@@ -9,3 +9,4 @@ schools_csv_url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.
 
 # Connect to SQLite Database
 conn = sqlite3.connect('FinalDB.db')
+cur = conn.cursor()
