@@ -14,3 +14,7 @@ cur = conn.cursor()
 # Load Chicago Crime csv file into DataFrame and save as SQLite Database
 crime_df = pd.read_csv(crime_csv_url)
 crime_df.to_sql('CRIME', conn, if_exists="replace", index=False)
+
+# Load the Chicago Censes Data CSV into a DataFrame and save it to the SQLite database
+census_df = pd.read_csv(census_csv_url)
+census_df.to_sql('CENSUS', conn, if_exists='replace', index=False)
